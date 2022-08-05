@@ -1,0 +1,104 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    background:lavender;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    box-sizing:border-box;
+}
+.title-div{
+    width:auto;
+    height:auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    position:absolute;
+    top:calc(100vh/30);
+}
+.title-div span{
+    font-size:5em;
+    font-weight:bolder;
+    color:#333;
+}
+.player{
+    width:80%;
+    height:70vh;
+    border-radius:0.5rem;
+    position:absolute;
+    top:calc(100vh/6);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.player-info{
+    width:90%;
+    height:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.player-info span{
+    font-size:4em;
+    font-weight:bolder;
+    color:tomato;
+}
+.player-controls{
+    width:90%;
+    height:60vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.canvas{
+    width:80%;
+    height:40vh;
+}
+.controls{
+    width:80%;
+    height:auto;
+    padding:0.5rem;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-direction:column;
+}
+.slider{
+    width:95%;
+    height:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.seek-bar{
+    -webkit-appearance: none; 
+    width:95%;
+    height:5px;
+    background:#333;
+}
+.seek-bar::-webkit-slider-thumb{
+    -webkit-appearance:none; 
+    width:30px;
+    height:30px;
+    background:#202020;
+    border-radius:100%;
+}
+.controls-main{
+    width:80%;
+    height:auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.controls-main span{
+    font-size:8em;
+}
+.play{
+    position:absolute;
+}
+.pause{
+    font-size:1em;
+    display:none;
+}
